@@ -39,12 +39,36 @@ footer, header, hgroup, menu, nav, section {
 }
 h1{
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
 }
-.links{
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav a{
     text-align: center;
+    border: 2px solid black;
+    padding:5px;
+    display:inline-block;
 }
+
 h2{
     text-align: center;
-    font-size:150%;
+    font-size:200%;
+}
+.description{
+    text-align: center;
+    font-size: 125%;
+}
+.firstImage{
+    width:200%
+}
+.images {
+    display: flex;
+
+}
+.images img {
+    width: 25%;
+    height: 200px;
+    object-fit: cover;
 }
