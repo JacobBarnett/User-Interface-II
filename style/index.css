@@ -37,6 +37,9 @@ footer, header, hgroup, menu, nav, section {
     max-width:100%;
     border:0; 
 }
+header{
+    border: 3px solid black;
+}
 h1{
     text-align: center;
     font-size: 300%;
@@ -47,6 +50,7 @@ nav{
 }
 nav a{
     text-align: center;
+    width: 10%;
     border: 2px solid black;
     padding:5px;
     display:inline-block;
@@ -61,14 +65,30 @@ h2{
     font-size: 125%;
 }
 .firstImage{
-    width:200%
+    width:150%
 }
 .images {
     display: flex;
 
 }
 .images img {
-    width: 25%;
+    width: 20%;
     height: 200px;
     object-fit: cover;
+}
+p{
+    text-align: center;
+}
+.bottom{
+    text-align: right;
+}
+footer{
+    text-align: center;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding:5%;
+}
+button{
+    width:50%;
+    font-size: 150%;
 }
