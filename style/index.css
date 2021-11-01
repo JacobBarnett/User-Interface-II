@@ -92,3 +92,11 @@ button{
     width:50%;
     font-size: 150%;
 }
+
+@media (max-width: 800px){
+
+}
+
+@media (max-width: 500px){
+    
+}
